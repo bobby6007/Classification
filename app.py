@@ -24,7 +24,7 @@ import pathlib
 st.title('Weapons Classifier')
 
 # image uploading
-file = st.file_uploader('Upload a picture here', type=['png','jpeg','gif','svg'])
+file = st.file_uploader('Upload a picture here', type=['jpeg','png','gif','svg'])
 if file:
         st.image(file)
         # PIL conver
